@@ -41,21 +41,23 @@
         app:rowCount="2"
         android:layout_below="@id/r1">
 
-        <androidx.cardview.widget.CardView
+
+        <com.skydoves.elasticviews.ElasticCardView
             android:id="@+id/idCard1"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
-            app:cardCornerRadius="12dp"
-            app:cardElevation="8dp"
             android:background="@color/colorPrimaryDark"
             app:layout_columnWeight="1"
+            app:cardBackgroundColor="@color/black"
             app:layout_rowWeight="1"
             android:foreground="?selectableItemBackground"
-            >
-
+            app:cardCornerRadius="8dp"
+            app:cardElevation="12dp"
+            app:cardView_duration="250"
+            app:cardView_scale="0.8" >
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -72,25 +74,24 @@
 
             </LinearLayout>
 
+        </com.skydoves.elasticviews.ElasticCardView>
 
-
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
+        <com.skydoves.elasticviews.ElasticCardView
             android:id="@+id/idCard2"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
-            app:cardCornerRadius="12dp"
-            app:cardElevation="8dp"
             android:background="@color/colorPrimaryDark"
             app:layout_columnWeight="1"
+            app:cardBackgroundColor="@color/black"
             app:layout_rowWeight="1"
             android:foreground="?selectableItemBackground"
-            >
-
+            app:cardCornerRadius="8dp"
+            app:cardElevation="12dp"
+            app:cardView_duration="250"
+            app:cardView_scale="0.8" >
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -99,33 +100,32 @@
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:scaleType="fitXY"
                     android:layout_height="match_parent"
+                    android:scaleType="fitXY"
                     android:src="@drawable/villalpando"
-                    android:layout_gravity="center_horizontal|center_vertical"/>
-
-
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    />
 
             </LinearLayout>
 
+        </com.skydoves.elasticviews.ElasticCardView>
 
-
-        </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
+        <com.skydoves.elasticviews.ElasticCardView
             android:id="@+id/idCard3"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
-            app:cardCornerRadius="12dp"
-            app:cardElevation="8dp"
             android:background="@color/colorPrimaryDark"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1"
+            app:cardBackgroundColor="@color/black"
             android:foreground="?selectableItemBackground"
-            >
-
+            app:cardCornerRadius="8dp"
+            app:cardElevation="12dp"
+            app:cardView_duration="250"
+            app:cardView_scale="0.8" >
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -137,30 +137,29 @@
                     android:layout_height="match_parent"
                     android:scaleType="fitXY"
                     android:src="@drawable/mosha"
-                    android:layout_gravity="center_horizontal|center_vertical"/>
-
-
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    />
 
             </LinearLayout>
 
+        </com.skydoves.elasticviews.ElasticCardView>
 
-
-        </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
+        <com.skydoves.elasticviews.ElasticCardView
             android:id="@+id/idCard4"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
-            app:cardCornerRadius="12dp"
-            app:cardElevation="8dp"
             android:background="@color/colorPrimaryDark"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1"
+            app:cardBackgroundColor="@color/black"
             android:foreground="?selectableItemBackground"
-            >
-
+            app:cardCornerRadius="8dp"
+            app:cardElevation="12dp"
+            app:cardView_duration="250"
+            app:cardView_scale="0.8" >
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -169,16 +168,21 @@
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:scaleType="fitXY"
                     android:layout_height="match_parent"
+                    android:scaleType="fitXY"
                     android:src="@drawable/villa"
-                    android:layout_gravity="center_horizontal|center_vertical"/>
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    />
 
             </LinearLayout>
 
+        </com.skydoves.elasticviews.ElasticCardView>
 
 
-        </androidx.cardview.widget.CardView>
+
+
+
+
 
     </androidx.gridlayout.widget.GridLayout>
 

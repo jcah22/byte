@@ -19,7 +19,7 @@
         <TextView
             android:id="@+id/txtView"
             android:layout_width="wrap_content"
-            android:textSize="16sp"
+            android:textSize="22sp"
             android:textStyle="bold|italic"
             android:textColor="#EFB810"
             android:layout_centerInParent="true"

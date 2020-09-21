@@ -8,6 +8,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.skydoves.elasticviews.ElasticCardView;
+
 public class MenuActivity extends AppCompatActivity {
 
     CardView enamoro,villa,mosha,ofertas;

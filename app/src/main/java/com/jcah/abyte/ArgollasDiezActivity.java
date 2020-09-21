@@ -1,5 +1,6 @@
 package com.jcah.abyte;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -23,6 +24,10 @@ public class ArgollasDiezActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_argollas_diez);
+
+
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.hide();
 
         initViews();
         initValues();

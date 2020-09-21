@@ -1,6 +1,8 @@
 package com.jcah.abyte.models;
 
-public class ArgollaDiezK {
+import java.io.Serializable;
+
+public class ArgollaDiezK implements Serializable {
 
     private String codigo;
     private String descripcion;

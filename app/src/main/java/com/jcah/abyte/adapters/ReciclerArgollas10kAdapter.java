@@ -1,5 +1,6 @@
 package com.jcah.abyte.adapters;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,6 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.jcah.abyte.DetalleArgolla10kActivity;
 import com.jcah.abyte.R;
 import com.jcah.abyte.models.ArgollaDiezK;
 
@@ -32,13 +34,30 @@ public class ReciclerArgollas10kAdapter extends RecyclerView.Adapter<ReciclerArg
     }
 
     @Override
-    public void onBindViewHolder(@NonNull RecyclerHolder holder, int position) {
+    public void onBindViewHolder(@NonNull final RecyclerHolder holder, final int position) {
 
-        ArgollaDiezK item = items.get(position);
+        final ArgollaDiezK item = items.get(position);
         holder.codigo.setText(item.getCodigo());
         holder.descripcion.setText(item.getDescripcion());
         holder.peso.setText(item.getPeso());
         holder.foto.setImageResource(item.getFoto());
+
+
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+
+                Intent i = new Intent(holder.itemView.getContext(), DetalleArgolla10kActivity.class);
+                i.putExtra("itemDetalle",item);
+                holder.itemView.getContext().startActivity(i);
+
+
+            }
+        });
+
+
 
     }
 

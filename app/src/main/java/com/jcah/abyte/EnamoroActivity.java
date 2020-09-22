@@ -35,7 +35,7 @@ public class EnamoroActivity extends AppCompatActivity {
         catorcek.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intentCatorce = new Intent(EnamoroActivity.this,ArgollasCatorceActivity.class);
+                Intent intentCatorce = new Intent(EnamoroActivity.this,Argolla14Activity.class);
                 startActivity(intentCatorce);
             }
         });

@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Argolla14Activity"></activity>
+        <activity android:name=".argollaClasica14Activity"></activity>
+        <activity android:name=".Argolla14Activity" />
         <activity android:name=".DetalleArgolla10kActivity" />
         <activity android:name=".ArgollasDiezActivity" />
         <activity android:name=".OfertasActivity" />

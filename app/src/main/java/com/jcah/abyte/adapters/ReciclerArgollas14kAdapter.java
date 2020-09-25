@@ -41,7 +41,7 @@ public class ReciclerArgollas14kAdapter extends RecyclerView.Adapter<ReciclerArg
         holder.codigo.setText(item.getCodigo());
         holder.descripcion.setText(item.getDescripcion());
         holder.peso.setText(item.getPeso());
-        holder.peso.setText(item.getFoto());
+        holder.foto.setImageResource(item.getFoto());
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override

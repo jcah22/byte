@@ -9,6 +9,9 @@ public class Argolla14k implements Serializable {
     public String peso;
     public int foto;
 
+    public Argolla14k() {
+    }
+
     public Argolla14k(String codigo, String descripcion, String peso, int foto) {
         this.codigo = codigo;
         this.descripcion = descripcion;

@@ -11,15 +11,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".argollaClasica14Activity"></activity>
-        <activity android:name=".Argolla14Activity" />
+        <activity android:name=".DetalleArgCatorceClasicaActivity"></activity>
+        <activity android:name=".argollaClasica14Activity" />
+        <activity android:name=".Argolla14Activity" android:launchMode="singleInstance"/>
         <activity android:name=".DetalleArgolla10kActivity" />
         <activity android:name=".ArgollasDiezActivity" />
         <activity android:name=".OfertasActivity" />
         <activity android:name=".MoshaActivity" />
         <activity android:name=".VillaActivity" />
-        <activity android:name=".EnamoroActivity" />
-        <activity android:name=".MenuActivity" />
+        <activity android:name=".EnamoroActivity" android:launchMode="singleInstance" />
+        <activity android:name=".MenuActivity" android:launchMode="singleInstance"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

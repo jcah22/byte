@@ -42,8 +42,6 @@ public class ReciclerArgollas10kAdapter extends RecyclerView.Adapter<ReciclerArg
         holder.peso.setText(item.getPeso());
         holder.foto.setImageResource(item.getFoto());
 
-
-
         holder.itemView.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -52,12 +50,8 @@ public class ReciclerArgollas10kAdapter extends RecyclerView.Adapter<ReciclerArg
                 Intent i = new Intent(holder.itemView.getContext(), DetalleArgolla10kActivity.class);
                 i.putExtra("itemDetalle",item);
                 holder.itemView.getContext().startActivity(i);
-
-
             }
         });
-
-
 
     }
 
@@ -83,5 +77,6 @@ public class ReciclerArgollas10kAdapter extends RecyclerView.Adapter<ReciclerArg
         }
 
     }
+
 
 }

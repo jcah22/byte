@@ -26,18 +26,11 @@ public class DetalleArgolla10kActivity extends AppCompatActivity {
         initViews();
         initValues();
     }
-
-
-
     private void initViews(){
 
         imagenDetalle = findViewById(R.id.imgDetalleArgolla10k);
         codigoDetalle = findViewById(R.id.txtCodigoDetalle10k);
-
-
     }
-
-
     private  void initValues(){
 
         itemDetalle = (ArgollaDiezK) getIntent().getExtras().getSerializable("itemDetalle");

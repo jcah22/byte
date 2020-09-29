@@ -38,7 +38,7 @@ app:cardView_scale="0.8" >
                 android:layout_marginTop="5dp"
                 android:textColor="#000"
                 android:textStyle="bold|italic"
-                android:fontFamily="cursive"
+                android:fontFamily="@font/centurygothic"
                 android:textSize="20sp" />
 
             <TextView
@@ -47,7 +47,7 @@ app:cardView_scale="0.8" >
                 android:layout_height="wrap_content"
                 android:textStyle="bold|italic"
                 android:textColor="#000"
-                android:fontFamily="cursive"
+                android:fontFamily="@font/centurygothic"
                 android:layout_marginTop="5dp"
                 android:textSize="20sp" />
 
@@ -55,7 +55,7 @@ app:cardView_scale="0.8" >
                 android:id="@+id/txtPesoProm"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="cursive"
+                android:fontFamily="@font/centurygothic"
                 android:textColor="#000"
                 android:textStyle="bold|italic"
                 android:layout_marginTop="5dp"

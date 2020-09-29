@@ -18,9 +18,9 @@
         android:layout_weight="1"
         android:textSize="22sp"
         android:textColor="#000"
-        android:fontFamily="cursive"
+        android:fontFamily="@font/centurygothic"
         android:layout_marginTop="10dp"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         android:text="Codigo"
         android:gravity="center">
 
@@ -49,10 +49,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:textSize="19sp"
+        android:textSize="14sp"
         android:gravity="center"
-        android:textStyle="italic|bold"
-        android:fontFamily="cursive"
+        android:textStyle="bold|italic"
+        android:fontFamily="@font/centurygothic"
         android:textColor="#FF0000"
         android:layout_marginBottom="10dp"
         android:layout_weight="1"

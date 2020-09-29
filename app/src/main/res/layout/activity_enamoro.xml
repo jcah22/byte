@@ -20,7 +20,7 @@
         android:text="Argollas 10 Kilates"
         android:textColor="@color/dorado"
         android:textSize="25sp"
-        android:fontFamily="cursive"
+        android:fontFamily="@font/centurygothic"
         android:textStyle="bold|italic"
   />
 
@@ -42,13 +42,13 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:fontFamily="cursive"
+        android:fontFamily="@font/centurygothic"
         android:layout_marginTop="10dp"
         android:gravity="center"
         android:text="Argollas 14 Kilates"
         android:textColor="@color/dorado"
         android:textSize="25sp"
-        android:textStyle="italic|bold"
+        android:textStyle="bold|italic"
         />
 
 

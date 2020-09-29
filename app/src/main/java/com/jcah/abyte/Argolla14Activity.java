@@ -21,6 +21,7 @@ public class Argolla14Activity extends AppCompatActivity {
         actionBar.hide();
 
         card1 = findViewById(R.id.idCardClasica);
+        card2 = findViewById(R.id.idCardConfort);
 
         card1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,6 +31,13 @@ public class Argolla14Activity extends AppCompatActivity {
             }
         });
 
+        card2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent iConfort = new Intent(Argolla14Activity.this,ArgollaConfortActivity.class);
+                startActivity(iConfort);
+            }
+        });
 
 
     }

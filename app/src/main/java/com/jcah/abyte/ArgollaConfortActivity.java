@@ -63,7 +63,7 @@ public class ArgollaConfortActivity extends AppCompatActivity {
         itemList.add(new Argolla14Confort("CF007CPR","Argollas 6 mm 14 Kilates","p.p. 3.5 gr",R.drawable.cf007cpr));
         itemList.add(new Argolla14Confort("CP069-64","Argolla 6 mm 14 Kilates","p.p. 3.5 gr",R.drawable.cp069_64));
         itemList.add(new Argolla14Confort("CP072R-64","Argolla 6 mm 14 Kilates","p.p. 3.4 gr",R.drawable.cp072r_64));
-       // itemList.add(new Argolla14Confort("CP073R-64","Argolla 6 mm 14 Kilates","p.p. 3.5 gr",R.drawable.cp073))
+        itemList.add(new Argolla14Confort("CP073R-64","Argolla 6 mm 14 Kilates","p.p. 3.5 gr",R.drawable.cp073r_64));
 
 
         return itemList;

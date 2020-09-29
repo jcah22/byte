@@ -18,7 +18,7 @@
 
 
         <ImageView
-            android:id="@+id/imgArgolla10k"
+            android:id="@+id/imgArgollaEurofit"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_marginRight="10dp"
@@ -32,7 +32,7 @@
 
 
             <TextView
-                android:id="@+id/txtCodigo"
+                android:id="@+id/txtCodigoEurofit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
@@ -42,7 +42,7 @@
                 android:textStyle="bold|italic" />
 
             <TextView
-                android:id="@+id/txtDescripcion"
+                android:id="@+id/txtDescripcionEurofit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
@@ -52,7 +52,7 @@
                 android:textStyle="bold|italic" />
 
             <TextView
-                android:id="@+id/txtPesoProm"
+                android:id="@+id/txtPesoPromEurofit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
@@ -68,5 +68,3 @@
 
 
 </com.skydoves.elasticviews.ElasticCardView>
-
-

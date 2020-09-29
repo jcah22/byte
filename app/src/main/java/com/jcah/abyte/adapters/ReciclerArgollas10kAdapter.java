@@ -1,19 +1,15 @@
 package com.jcah.abyte.adapters;
-
 import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.jcah.abyte.DetalleArgolla10kActivity;
 import com.jcah.abyte.R;
 import com.jcah.abyte.models.ArgollaDiezK;
-
 import java.util.List;
 
 
@@ -54,6 +50,7 @@ public class ReciclerArgollas10kAdapter extends RecyclerView.Adapter<ReciclerArg
         });
 
     }
+
 
     @Override
     public int getItemCount() {

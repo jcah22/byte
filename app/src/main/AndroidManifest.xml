@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ArgollaMovActivity"></activity>
+        <activity android:name=".detalleConfortActivity"></activity>
+        <activity android:name=".ArgollaMovActivity" />
         <activity android:name=".ArgollaEurofitActivity" />
         <activity android:name=".ArgollaConfortActivity" />
         <activity android:name=".DetalleArgCatorceClasicaActivity" />

@@ -29,6 +29,9 @@ public class ArgollaConfortActivity extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
 
+        initViews();
+        initValues();
+
 
     }
 

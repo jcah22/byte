@@ -22,9 +22,9 @@ public class MenuActivity extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
 
-        enamoro = findViewById(R.id.idCard1);
+        enamoro = findViewById(R.id.idCard3);
         villa = findViewById(R.id.idCard2);
-        mosha = findViewById(R.id.idCard3);
+        mosha = findViewById(R.id.idCard1);
 
 
         getEnamoro();

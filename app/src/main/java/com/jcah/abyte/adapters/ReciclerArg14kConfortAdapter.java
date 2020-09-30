@@ -1,5 +1,6 @@
 package com.jcah.abyte.adapters;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.jcah.abyte.R;
+import com.jcah.abyte.detalleConfortActivity;
 import com.jcah.abyte.models.Argolla14Confort;
 
 import java.util.List;
@@ -34,7 +36,7 @@ public class ReciclerArg14kConfortAdapter extends RecyclerView.Adapter<ReciclerA
     }
 
     @Override
-    public void onBindViewHolder(@NonNull RecyclerHolder holder, int position) {
+    public void onBindViewHolder(@NonNull final RecyclerHolder holder, int position) {
         final Argolla14Confort  item = items.get(position);
         holder.codigo.setText(item.getCodigo());
         holder.descripcion.setText(item.getDescripcion());
@@ -45,6 +47,11 @@ public class ReciclerArg14kConfortAdapter extends RecyclerView.Adapter<ReciclerA
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                Intent iDetalleConfort = new Intent(holder.itemView.getContext(), detalleConfortActivity.class);
+
+                iDetalleConfort.putExtra("itemDetalle",item);
+                holder.itemView.getContext().startActivity(iDetalleConfort);
 
             }
         });

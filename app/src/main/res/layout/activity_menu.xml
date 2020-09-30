@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
-    android:weightSum="10"
+    android:weightSum="1"
     android:background="#000"
     android:layout_height="match_parent"
     tools:context=".MenuActivity">
@@ -35,8 +35,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="4dp"
-        app:columnCount="2"
-        app:rowCount="2"
+        app:columnCount="1"
+        app:rowCount="1"
         android:layout_below="@id/r1">
 
 
@@ -52,7 +52,7 @@
             app:cardBackgroundColor="@color/black"
             app:layout_rowWeight="1"
             android:foreground="?selectableItemBackground"
-            app:cardCornerRadius="8dp"
+            app:cardCornerRadius="15dp"
             app:cardElevation="12dp"
             app:cardView_duration="250"
             app:cardView_scale="0.8" >
@@ -86,7 +86,7 @@
             app:cardBackgroundColor="@color/black"
             app:layout_rowWeight="1"
             android:foreground="?selectableItemBackground"
-            app:cardCornerRadius="8dp"
+            app:cardCornerRadius="15dp"
             app:cardElevation="12dp"
             app:cardView_duration="250"
             app:cardView_scale="0.8" >
@@ -120,7 +120,7 @@
             app:layout_rowWeight="1"
             app:cardBackgroundColor="@color/black"
             android:foreground="?selectableItemBackground"
-            app:cardCornerRadius="8dp"
+            app:cardCornerRadius="15dp"
             app:cardElevation="12dp"
             app:cardView_duration="250"
             app:cardView_scale="0.8" >
@@ -142,39 +142,7 @@
 
         </com.skydoves.elasticviews.ElasticCardView>
 
-        <com.skydoves.elasticviews.ElasticCardView
-            android:id="@+id/idCard4"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:background="@color/colorPrimaryDark"
-            app:layout_columnWeight="1"
-            app:layout_rowWeight="1"
-            app:cardBackgroundColor="@color/black"
-            android:foreground="?selectableItemBackground"
-            app:cardCornerRadius="8dp"
-            app:cardElevation="12dp"
-            app:cardView_duration="250"
-            app:cardView_scale="0.8" >
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center_horizontal|center_vertical"
-                android:orientation="vertical">
 
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:scaleType="fitXY"
-                    android:src="@drawable/villa"
-                    android:layout_gravity="center_horizontal|center_vertical"
-                    />
-
-            </LinearLayout>
-
-        </com.skydoves.elasticviews.ElasticCardView>
 
 
 

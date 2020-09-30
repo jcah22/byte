@@ -12,7 +12,7 @@ import com.skydoves.elasticviews.ElasticCardView;
 
 public class MenuActivity extends AppCompatActivity {
 
-    CardView enamoro,villa,mosha,ofertas;
+    CardView enamoro,villa,mosha;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,12 +25,11 @@ public class MenuActivity extends AppCompatActivity {
         enamoro = findViewById(R.id.idCard1);
         villa = findViewById(R.id.idCard2);
         mosha = findViewById(R.id.idCard3);
-        ofertas = findViewById(R.id.idCard4);
+
 
         getEnamoro();
         getVilla();
         getMosha();
-        getOfertas();
     }
 
     private void getEnamoro() {
@@ -72,19 +71,7 @@ public class MenuActivity extends AppCompatActivity {
 
     }
 
-    private void getOfertas(){
 
-        ofertas.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent4 = new Intent(MenuActivity.this,OfertasActivity.class);
-                startActivity(intent4);
-            }
-        });
-
-
-
-    }
 
 
 }

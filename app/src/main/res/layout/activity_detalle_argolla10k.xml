@@ -34,7 +34,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtsku"
-        app:srcCompat="@drawable/enamoro"
+        app:srcCompat="@drawable/ic_launcher_foreground"
         app:zoomage_animateOnReset="true"
         android:layout_gravity="center"
         app:zoomage_autoCenter="true"

@@ -25,6 +25,7 @@
             android:id="@+id/idCardClasica"
             android:layout_width="0dp"
             android:layout_height="0dp"
+            android:layout_marginTop="25dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
@@ -47,7 +48,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="fitXY"
-                    android:src="@drawable/ic_launcher_foreground"
+
+                    android:src="@drawable/clasica"
                     android:layout_gravity="center_horizontal|center_vertical"
                     />
 
@@ -62,6 +64,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
+            android:layout_marginTop="25dp"
             android:background="@color/colorPrimaryDark"
             app:layout_columnWeight="1"
             app:cardBackgroundColor="@color/black"
@@ -81,7 +84,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="fitXY"
-                    android:src="@drawable/ic_launcher_foreground"
+                    android:src="@drawable/confort"
                     android:layout_gravity="center_horizontal|center_vertical"
                     />
 
@@ -96,6 +99,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
             android:background="@color/colorPrimaryDark"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1"
@@ -115,7 +119,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="fitXY"
-                    android:src="@drawable/ic_launcher_foreground"
+                    android:src="@drawable/eurofit"
                     android:layout_gravity="center_horizontal|center_vertical"
                     />
 
@@ -129,6 +133,7 @@
             android:layout_height="0dp"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
             android:layout_marginRight="10dp"
             android:background="@color/colorPrimaryDark"
             app:layout_columnWeight="1"
@@ -149,7 +154,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="fitXY"
-                    android:src="@drawable/ic_launcher_foreground"
+                    android:src="@drawable/mov"
                     android:layout_gravity="center_horizontal|center_vertical"
                     />
 

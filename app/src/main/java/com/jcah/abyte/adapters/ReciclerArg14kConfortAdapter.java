@@ -66,6 +66,8 @@ public class ReciclerArg14kConfortAdapter extends RecyclerView.Adapter<ReciclerA
     }
 
 
+
+
     public class RecyclerHolder extends RecyclerView.ViewHolder {
 
         private ImageView foto;

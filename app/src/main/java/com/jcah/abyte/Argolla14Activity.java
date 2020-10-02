@@ -22,6 +22,9 @@ public class Argolla14Activity extends AppCompatActivity {
 
         card1 = findViewById(R.id.idCardClasica);
         card2 = findViewById(R.id.idCardConfort);
+        card3 = findViewById(R.id.idCardEurofit);
+        card4 = findViewById(R.id.idCardMov);
+
 
         card1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,6 +42,13 @@ public class Argolla14Activity extends AppCompatActivity {
             }
         });
 
+        card3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent iEurofit = new Intent(Argolla14Activity.this,ArgollaEurofitActivity.class);
+                startActivity(iEurofit);
+            }
+        });
 
     }
 }

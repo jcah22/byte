@@ -39,7 +39,7 @@ public class ArgollaEurofitActivity extends AppCompatActivity {
         rvLista = findViewById(R.id.ReciclerViewEurofit);
     }
 
-    private void initValues(){
+    private void initValues() {
 
         LinearLayoutManager manager = new LinearLayoutManager(this);
         rvLista.setLayoutManager(manager);
@@ -49,15 +49,18 @@ public class ArgollaEurofitActivity extends AppCompatActivity {
         rvLista.setAdapter(adapter);
 
 
-
     }
 
     private List<Argolla14Eurofit> getItems() {
         List<Argolla14Eurofit> itemList = new ArrayList<>();
 
-      //  itemList.add(new Argolla14Confort("CF002", "Argolla 6 mm 14 Kilates", "p.p. 3.5gr", R.drawable.cf002));
-        itemList.add(new Argolla14Eurofit("EF028R","Argolla 6 mm 14 Kilates","p.p. 4.5 gr",R.drawable.ef028r));
-
+        itemList.add(new Argolla14Eurofit("EF028R", "Argolla 6 mm 14 Kilates", "p.p. 4.5 gramos", R.drawable.ef028r));
+        itemList.add(new Argolla14Eurofit("EF028R", "Argolla 2.5 mm 14 Kilates", "p.p. 4.5 gramos", R.drawable.ef009b));
+        itemList.add(new Argolla14Eurofit("EF057R-54", "Argolla 5 mm 14 Kilates", "p.p. 3.2 gramos", R.drawable.ef057r_54));
+        itemList.add(new Argolla14Eurofit("EF098R-64", "Argolla 6 mm 14 Kilates", "p.p. 3.4 gramos", R.drawable.ef098r_64));
+        itemList.add(new Argolla14Eurofit("EF097BP-44", "Argolla 4 mm 14 Kilates", "p.p. 3.2 gramos", R.drawable.ef097bp_44));
+        itemList.add(new Argolla14Eurofit("EF098R-44", "Argolla 4 mm 14 Kilates", "p.p. 2.6 gramos", R.drawable.ef098r_44));
+        itemList.add(new Argolla14Eurofit("EF102CP-44", "Argolla 4 mm 14 Kilates", "p.p. 3.0 gramos", R.drawable.ef102cp_44));
 
 
         return itemList;

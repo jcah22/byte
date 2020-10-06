@@ -52,19 +52,24 @@ public class ArgollaConfortActivity extends AppCompatActivity {
     private List<Argolla14Confort> getItems() {
         List<Argolla14Confort> itemList = new ArrayList<>();
 
-        itemList.add(new Argolla14Confort("CF002", "Argolla 6 mm 14 Kilates", "p.p. 3.5gr", R.drawable.cf002));
-        itemList.add(new Argolla14Confort("CF007", "Argola 6 mm 14 Kilates", "p.p. 3.3gr", R.drawable.cf007));
-        itemList.add(new Argolla14Confort("CF002-44", "Argolla 4 mm 14 Kilates", "p.p. 2.4 gr", R.drawable.cf002_44));
-        itemList.add(new Argolla14Confort("CF065-44", "Argolla 4 mm 14 Kilates", "p.p. 2.4 gr", R.drawable.cf065_44));
-        itemList.add(new Argolla14Confort("CF065-64", "Argolla 6 mm 14 Kilates", "p.p. 3.5gr", R.drawable.cf065_64));
-        itemList.add(new Argolla14Confort("CF006R", "Argolla 6 mm 14 Kilates", "p.p. 3.4 gr", R.drawable.cf006r));
-        itemList.add(new Argolla14Confort("CF009R", "Argolla 6 mm 14 Kilates", "p.p. 3.4 gr", R.drawable.cf009r));
-        itemList.add(new Argolla14Confort("CF011R", "Argolla 6 mm 14 Kilates", "p.p. 3.4 gr", R.drawable.cf011r));
-        itemList.add(new Argolla14Confort("CF004CPR", "Argolla 6 mm 14 Kilates", "p.p. 3.5 gr", R.drawable.cf004cpr));
-        itemList.add(new Argolla14Confort("CF007CPR", "Argollas 6 mm 14 Kilates", "p.p. 3.5 gr", R.drawable.cf007cpr));
-        itemList.add(new Argolla14Confort("CP069-64", "Argolla 6 mm 14 Kilates", "p.p. 3.5 gr", R.drawable.cp069_64));
-        itemList.add(new Argolla14Confort("CP072R-64", "Argolla 6 mm 14 Kilates", "p.p. 3.4 gr", R.drawable.cp072r_64));
-        itemList.add(new Argolla14Confort("CP073R-64", "Argolla 6 mm 14 Kilates", "p.p. 3.5 gr", R.drawable.cp073r_64));
+        itemList.add(new Argolla14Confort("CF002", "Argolla 6 mm 14 Kilates", "p.p. 3.5 gramos", R.drawable.cf002));
+        itemList.add(new Argolla14Confort("CF007", "Argola 6 mm 14 Kilates", "p.p. 3.3 gramos", R.drawable.cf007));
+        itemList.add(new Argolla14Confort("CF002-44", "Argolla 4 mm 14 Kilates", "p.p. 2.4 gramos", R.drawable.cf002_44));
+        itemList.add(new Argolla14Confort("CF065-44", "Argolla 4 mm 14 Kilates", "p.p. 2.4 gramos", R.drawable.cf065_44));
+        itemList.add(new Argolla14Confort("CF065-64", "Argolla 6 mm 14 Kilates", "p.p. 3.5 gramos", R.drawable.cf065_64));
+        itemList.add(new Argolla14Confort("CF006R", "Argolla 6 mm 14 Kilates", "p.p. 3.4 gramos", R.drawable.cf006r));
+        itemList.add(new Argolla14Confort("CF009R", "Argolla 6 mm 14 Kilates", "p.p. 3.4 gramos", R.drawable.cf009r));
+        itemList.add(new Argolla14Confort("CF011R", "Argolla 6 mm 14 Kilates", "p.p. 3.4 gramos", R.drawable.cf011r));
+        itemList.add(new Argolla14Confort("CF004CPR", "Argolla 6 mm 14 Kilates", "p.p. 3.5 gramos", R.drawable.cf004cpr));
+        itemList.add(new Argolla14Confort("CF007CPR", "Argollas 6 mm 14 Kilates", "p.p. 3.5 gramos", R.drawable.cf007cpr));
+        itemList.add(new Argolla14Confort("CP069-64", "Argolla 6 mm 14 Kilates", "p.p. 3.5 gramos", R.drawable.cp069_64));
+        itemList.add(new Argolla14Confort("CP072R-64", "Argolla 6 mm 14 Kilates", "p.p. 3.4 gramos", R.drawable.cp072r_64));
+        itemList.add(new Argolla14Confort("CP073R-64", "Argolla 6 mm 14 Kilates", "p.p. 3.5 gramos", R.drawable.cp073r_64));
+        itemList.add(new Argolla14Confort("CF002B","Argolla 6 mm 14 Kilates","p.p. 3.5 gramos",R.drawable.cf002b));
+        itemList.add(new Argolla14Confort("CF002B-44","Argolla 4 mm 14 Kilates","p.p. 2.4 gramos",R.drawable.cf002b_44));
+        itemList.add(new Argolla14Confort("CF065B-44","Argolla 4 mm 14 Kilates","p.p. 2.4 gramos",R.drawable.cf065b_44));
+        itemList.add(new Argolla14Confort("CF065B-64","Argolla 6 mm 14 Kilates" ,"p.p. 3.4 gramos",R.drawable.cf065b_64));
+
 
 
         return itemList;

@@ -8,6 +8,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.jcah.abyte.models.Argolla14Mov;
+
 public class Argolla14Activity extends AppCompatActivity {
 
     CardView card1,card2,card3,card4;
@@ -47,6 +49,14 @@ public class Argolla14Activity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent iEurofit = new Intent(Argolla14Activity.this,ArgollaEurofitActivity.class);
                 startActivity(iEurofit);
+            }
+        });
+
+        card4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent iMov = new Intent(Argolla14Activity.this, ArgollaMovActivity.class);
+                startActivity(iMov);
             }
         });
 

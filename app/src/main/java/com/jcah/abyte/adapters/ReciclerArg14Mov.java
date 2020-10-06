@@ -1,5 +1,6 @@
 package com.jcah.abyte.adapters;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,6 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.jcah.abyte.DetalleMovActivity;
 import com.jcah.abyte.R;
 import com.jcah.abyte.models.Argolla14Mov;
 
@@ -25,12 +27,12 @@ public class ReciclerArg14Mov extends RecyclerView.Adapter<ReciclerArg14Mov.Recy
     @NonNull
     @Override
     public RecyclerHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_argolla_mov,parent,false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_argolla_mov, parent, false);
         return new RecyclerHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull RecyclerHolder holder, int position) {
+    public void onBindViewHolder(@NonNull final RecyclerHolder holder, int position) {
 
         final Argolla14Mov item = items.get(position);
 
@@ -39,8 +41,16 @@ public class ReciclerArg14Mov extends RecyclerView.Adapter<ReciclerArg14Mov.Recy
         holder.peso.setText(item.getPeso());
         holder.foto.setImageResource(item.getFoto());
 
-    }
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent iDetalleMov = new Intent(holder.itemView.getContext(), DetalleMovActivity.class);
+                iDetalleMov.putExtra("itemDetalle", item);
+                holder.itemView.getContext().startActivity(iDetalleMov);
+            }
+        });
 
+    }
 
 
     @Override

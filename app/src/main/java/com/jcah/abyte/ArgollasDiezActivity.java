@@ -25,7 +25,6 @@ public class ArgollasDiezActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_argollas_diez);
 
-
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
 
@@ -33,7 +32,6 @@ public class ArgollasDiezActivity extends AppCompatActivity {
         initValues();
 
     }
-
 
 private void initViews(){
         rvLista = findViewById(R.id.reclicerViewDiezK);
@@ -48,9 +46,6 @@ private void initValues(){
     adapter = new ReciclerArgollas10kAdapter(items);
     rvLista.setAdapter(adapter);
 }
-
-
-
 
     private List<ArgollaDiezK> getItems(){
         List<ArgollaDiezK> itemList = new ArrayList<>();
@@ -68,7 +63,7 @@ private void initValues(){
 
         itemList.add(new ArgollaDiezK("CL105-61","Argolla 6mm 10 Kilates","P.P. 1.8 gr ",R.drawable.cl105_61));
         itemList.add(new ArgollaDiezK("CL107CO-61","Argolla 6mm 10 Kilates","P.P. 1.8 gr ",R.drawable.cl107co_61));
-        // itemList.add(new ArgollaDiezK("CL1108-41","Argolla 6mm 10 Kilates","P.P: 1.8 gr ",R.drawable.cl108));
+
         itemList.add(new ArgollaDiezK("CL1117","Argolla 6mm 10 Kilates","P.P. 1.8 gr ",R.drawable.cl1117));
         itemList.add(new ArgollaDiezK("CL1118","Argolla 6mm 10 Kilates","P.P. 1.8 gr ",R.drawable.cl1118));
         itemList.add(new ArgollaDiezK("CL1119","Argolla 6mm 10 Kilates","P.P. 1.8 gr ",R.drawable.cl1119));

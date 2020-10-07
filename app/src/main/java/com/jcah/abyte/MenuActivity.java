@@ -40,8 +40,6 @@ public class MenuActivity extends AppCompatActivity {
 
                 Intent intent1 = new Intent(MenuActivity.this,EnamoroActivity.class);
                 startActivity(intent1);
-
-
             }
         });
     }
@@ -57,7 +55,6 @@ public class MenuActivity extends AppCompatActivity {
         });
 
     }
-
     private void getMosha(){
 
         mosha.setOnClickListener(new View.OnClickListener() {

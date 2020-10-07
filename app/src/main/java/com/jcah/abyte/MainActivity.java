@@ -10,7 +10,7 @@ import android.os.Handler;
 
 public class MainActivity extends AppCompatActivity {
 
-    private final int DURACION_SPLASH = 6000;
+    private final int DURACION_SPLASH = 4000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

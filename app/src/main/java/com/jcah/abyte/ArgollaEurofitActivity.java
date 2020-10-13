@@ -62,7 +62,10 @@ public class ArgollaEurofitActivity extends AppCompatActivity {
         itemList.add(new Argolla14Eurofit("EF097BP-44", "Argolla 4 mm 14 Kilates", "p.p. 3.2 gramos", R.drawable.ef097bp_44));
         itemList.add(new Argolla14Eurofit("EF098R-44", "Argolla 4 mm 14 Kilates", "p.p. 2.6 gramos", R.drawable.ef098r_44));
         itemList.add(new Argolla14Eurofit("EF102CP-44", "Argolla 4 mm 14 Kilates", "p.p. 3.0 gramos", R.drawable.ef102cp_44));
+=======
+>>>>>>> Stashed changes
 
+        itemList.add(new Argolla14Eurofit("EF028R", "Argolla 6 mm 14 Kilates", "p.p. 4.5 gr", R.drawable.ef028r));
 
 
         return itemList;

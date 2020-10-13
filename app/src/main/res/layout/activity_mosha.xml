@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
     android:orientation="vertical"
     android:weightSum="10"
-    android:background="#000"
-    android:layout_height="match_parent"
     tools:context=".MoshaActivity">
 
     <androidx.gridlayout.widget.GridLayout
@@ -23,18 +22,19 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginTop="25dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"
+
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
             android:background="@color/colorPrimaryDark"
-            app:layout_columnWeight="1"
-            app:cardBackgroundColor="@color/black"
-            app:layout_rowWeight="1"
             android:foreground="?selectableItemBackground"
+            app:cardBackgroundColor="@color/black"
             app:cardCornerRadius="8dp"
             app:cardElevation="12dp"
             app:cardView_duration="250"
-            app:cardView_scale="0.8" >
+            app:cardView_scale="0.8"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -44,10 +44,9 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:scaleType="fitXY"
-                    android:src="@drawable/collaresplata"
                     android:layout_gravity="center_horizontal|center_vertical"
-                    />
+                    android:scaleType="fitXY"
+                    android:src="@drawable/collaresplata" />
 
             </LinearLayout>
         </com.skydoves.elasticviews.ElasticCardView>
@@ -56,19 +55,19 @@
             android:id="@+id/idCardPlataCadenas"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
             android:layout_marginTop="25dp"
+            android:layout_marginBottom="5dp"
             android:background="@color/colorPrimaryDark"
-            app:layout_columnWeight="1"
-            app:cardBackgroundColor="@color/black"
-            app:layout_rowWeight="1"
             android:foreground="?selectableItemBackground"
+            app:cardBackgroundColor="@color/black"
             app:cardCornerRadius="8dp"
             app:cardElevation="12dp"
             app:cardView_duration="250"
-            app:cardView_scale="0.8" >
+            app:cardView_scale="0.8"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -78,10 +77,9 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:scaleType="fitXY"
-                    android:src="@drawable/cadenas"
                     android:layout_gravity="center_horizontal|center_vertical"
-                    />
+                    android:scaleType="fitXY"
+                    android:src="@drawable/cadenas" />
 
             </LinearLayout>
 
@@ -91,19 +89,19 @@
             android:id="@+id/idCardPlataArracadasAretes"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="20dp"
+
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
             android:background="@color/colorPrimaryDark"
-            app:layout_columnWeight="1"
-            app:layout_rowWeight="1"
-            app:cardBackgroundColor="@color/black"
             android:foreground="?selectableItemBackground"
+            app:cardBackgroundColor="@color/black"
             app:cardCornerRadius="8dp"
             app:cardElevation="12dp"
             app:cardView_duration="250"
-            app:cardView_scale="0.8" >
+            app:cardView_scale="0.8"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -113,10 +111,9 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:scaleType="fitXY"
-                    android:src="@drawable/arracadasyaretesplata"
                     android:layout_gravity="center_horizontal|center_vertical"
-                    />
+                    android:scaleType="fitXY"
+                    android:src="@drawable/arracadasyaretesplata" />
 
             </LinearLayout>
 
@@ -126,19 +123,19 @@
             android:id="@+id/idCardPlataDijes"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginBottom="20dp"
-            android:layout_marginRight="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+
             android:background="@color/colorPrimaryDark"
-            app:layout_columnWeight="1"
-            app:layout_rowWeight="1"
-            app:cardBackgroundColor="@color/black"
             android:foreground="?selectableItemBackground"
+            app:cardBackgroundColor="@color/black"
             app:cardCornerRadius="8dp"
             app:cardElevation="12dp"
             app:cardView_duration="250"
-            app:cardView_scale="0.8" >
+            app:cardView_scale="0.8"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -148,10 +145,9 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:scaleType="fitXY"
-                    android:src="@drawable/dijeplata"
                     android:layout_gravity="center_horizontal|center_vertical"
-                    />
+                    android:scaleType="fitXY"
+                    android:src="@drawable/dijeplata" />
 
             </LinearLayout>
 
@@ -161,18 +157,19 @@
             android:id="@+id/idCardPlataEsclavas"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginBottom="20dp"
-            android:layout_marginRight="10dp"
+
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
             android:background="@color/colorPrimaryDark"
-            app:layout_columnWeight="1"
-            app:layout_rowWeight="1"
-            app:cardBackgroundColor="@color/black"
             android:foreground="?selectableItemBackground"
+            app:cardBackgroundColor="@color/black"
             app:cardCornerRadius="8dp"
             app:cardElevation="12dp"
             app:cardView_duration="250"
-            app:cardView_scale="0.8" >
+            app:cardView_scale="0.8"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -182,10 +179,9 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:scaleType="fitXY"
-                    android:src="@drawable/esclavasypulserasplata"
                     android:layout_gravity="center_horizontal|center_vertical"
-                    />
+                    android:scaleType="fitXY"
+                    android:src="@drawable/esclavas" />
 
             </LinearLayout>
 
@@ -195,18 +191,19 @@
             android:id="@+id/idCardPlataReligioso"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginBottom="20dp"
-            android:layout_marginRight="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+
             android:background="@color/colorPrimaryDark"
-            app:layout_columnWeight="1"
-            app:layout_rowWeight="1"
-            app:cardBackgroundColor="@color/black"
             android:foreground="?selectableItemBackground"
+            app:cardBackgroundColor="@color/black"
             app:cardCornerRadius="8dp"
             app:cardElevation="12dp"
             app:cardView_duration="250"
-            app:cardView_scale="0.8" >
+            app:cardView_scale="0.8"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -216,14 +213,80 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:scaleType="fitXY"
-                    android:src="@drawable/religiososplata"
                     android:layout_gravity="center_horizontal|center_vertical"
-                    />
+                    android:scaleType="fitXY"
+                    android:src="@drawable/anillos" />
 
             </LinearLayout>
 
         </com.skydoves.elasticviews.ElasticCardView>
+
+        <com.skydoves.elasticviews.ElasticCardView
+            android:id="@+id/idCardPlataAnillos"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="12dp"
+            android:background="@color/colorPrimaryDark"
+            android:foreground="?selectableItemBackground"
+            app:cardBackgroundColor="@color/black"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="12dp"
+            app:cardView_duration="250"
+            app:cardView_scale="0.8"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pulseras" />
+
+            </LinearLayout>
+
+        </com.skydoves.elasticviews.ElasticCardView>
+
+        <com.skydoves.elasticviews.ElasticCardView
+            android:id="@+id/idCardPlataPulseras"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="12dp"
+            android:background="@color/colorPrimaryDark"
+            android:foreground="?selectableItemBackground"
+            app:cardBackgroundColor="@color/black"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="12dp"
+            app:cardView_duration="250"
+            app:cardView_scale="0.8"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/religiososplata" />
+
+            </LinearLayout>
+
+        </com.skydoves.elasticviews.ElasticCardView>
+
 
     </androidx.gridlayout.widget.GridLayout>
 

@@ -3,6 +3,7 @@ package com.jcah.abyte;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -42,6 +43,9 @@ public class MoshaActivity extends AppCompatActivity {
         cardPlataCollares.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent iCollares = new Intent(MoshaActivity.this,CollaresPlataActivity.class);
+                startActivity(iCollares);
+
 
             }
         });
@@ -50,12 +54,17 @@ public class MoshaActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
+                Intent iCadenas =  new Intent(MoshaActivity.this,CadenasPlataActivity.class);
+                startActivity(iCadenas);
+
             }
         });
 
         cardPlataArracadasAretes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent iArracadas  =new Intent(MoshaActivity.this,ArracadasPlataActivity.class);
+                startActivity(iArracadas);
 
             }
         });
@@ -63,6 +72,8 @@ public class MoshaActivity extends AppCompatActivity {
         cardPlataDijes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent iDijes = new Intent(MoshaActivity.this,DijesPlataActivity.class);
+                startActivity(iDijes);
 
             }
         });
@@ -70,6 +81,8 @@ public class MoshaActivity extends AppCompatActivity {
         cardPlataEsclavas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent iEsclavas = new Intent(MoshaActivity.this , EsclavasPlataActivity.class);
+                startActivity(iEsclavas);
 
             }
         });
@@ -77,6 +90,8 @@ public class MoshaActivity extends AppCompatActivity {
         cardPlataAnillos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent iAnillos = new Intent(MoshaActivity.this , AnillosPlataActivity.class);
+                startActivity(iAnillos);
 
             }
         });
@@ -84,6 +99,8 @@ public class MoshaActivity extends AppCompatActivity {
         cardPlataPulseras.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent iPulseras = new Intent(MoshaActivity.this, PulserasPlataActivity.class);
+                startActivity(iPulseras);
 
             }
         });
@@ -91,6 +108,8 @@ public class MoshaActivity extends AppCompatActivity {
         cardPlataReligiosos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent iReligioso = new Intent(MoshaActivity.this,ReligiosoPlataActivity.class);
+                startActivity(iReligioso);
 
             }
         });

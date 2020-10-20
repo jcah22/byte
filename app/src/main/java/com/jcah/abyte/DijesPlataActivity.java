@@ -5,12 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class CollaresPlataActivity extends AppCompatActivity {
+public class DijesPlataActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_collares_plata);
+        setContentView(R.layout.activity_dijes_plata);
 
 
         ActionBar actionBar = getSupportActionBar();

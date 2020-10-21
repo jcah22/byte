@@ -47,6 +47,11 @@ public class ReciclerArg14Mov extends RecyclerView.Adapter<ReciclerArg14Mov.Recy
                 Intent iDetalleMov = new Intent(holder.itemView.getContext(), DetalleMovActivity.class);
                 iDetalleMov.putExtra("itemDetalle", item);
                 holder.itemView.getContext().startActivity(iDetalleMov);
+
+
+
+
+
             }
         });
 

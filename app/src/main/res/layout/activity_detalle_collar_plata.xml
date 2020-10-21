@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    tools:context=".DetalleCollarPlataActivity">
+
+    <TextView
+        android:id="@+id/txtCodigoDetalleCollarPlata"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="22sp"
+        android:textColor="#000"
+        android:fontFamily="@font/centurygothic"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="Codigo"
+        android:gravity="center">
+
+    </TextView>
+
+
+    <com.jsibbold.zoomage.ZoomageView
+        android:id="@+id/imgDetalleArgollaEurofit"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        app:zoomage_animateOnReset="true"
+        android:layout_gravity="center"
+        app:zoomage_autoCenter="true"
+        app:zoomage_maxScale="8"
+        android:layout_weight="8"
+        app:zoomage_minScale="0.6"
+        app:zoomage_restrictBounds="false"
+        app:zoomage_translatable="true"
+        app:zoomage_zoomable="true" />
+
+</LinearLayout>

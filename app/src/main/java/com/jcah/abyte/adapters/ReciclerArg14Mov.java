@@ -48,10 +48,6 @@ public class ReciclerArg14Mov extends RecyclerView.Adapter<ReciclerArg14Mov.Recy
                 iDetalleMov.putExtra("itemDetalle", item);
                 holder.itemView.getContext().startActivity(iDetalleMov);
 
-
-
-
-
             }
         });
 

@@ -1,14 +1,17 @@
 package com.jcah.abyte.adapters;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.jcah.abyte.DetalleCollarPlataActivity;
 import com.jcah.abyte.R;
 import com.jcah.abyte.models.CollaresPlata;
 
@@ -35,7 +38,7 @@ public class ReciclerCollarPlataAdapter extends RecyclerView.Adapter<ReciclerCol
     }
 
     @Override
-    public void onBindViewHolder(@NonNull RecyclerHolder holder, int position) {
+    public void onBindViewHolder(@NonNull final RecyclerHolder holder, int position) {
 
         final CollaresPlata item = items.get(position);
 
@@ -43,7 +46,15 @@ public class ReciclerCollarPlataAdapter extends RecyclerView.Adapter<ReciclerCol
         holder.descripcion.setText(item.getDescripcion());
         holder.foto.setImageResource(item.getFoto());
 
-        // click para detalle
+       //  click para detalle
+          holder.itemView.setOnClickListener(new View.OnClickListener() {
+                 @Override
+                   public void onClick(View view) {
+                    Intent iDetalleCollarPlata = new Intent(holder.itemView.getContext(), DetalleCollarPlataActivity.class);
+                      iDetalleCollarPlata.putExtra("itemDetalle", item);
+                      holder.itemView.getContext().startActivity(iDetalleCollarPlata);
+                   }
+               });
 
 
 

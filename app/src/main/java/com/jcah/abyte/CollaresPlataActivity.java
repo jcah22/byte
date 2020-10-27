@@ -28,6 +28,9 @@ public class CollaresPlataActivity extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
 
+        initViews();
+        initValues();
+
 
     }
 
@@ -48,7 +51,8 @@ public class CollaresPlataActivity extends AppCompatActivity {
     private List<CollaresPlata> getItems(){
         List<CollaresPlata> itemList = new ArrayList<>();
 
-       // itemList.add(new CollaresPlata("","",));
+        itemList.add(new CollaresPlata("DI2105CL","Collar con dije de estrella vaciada",R.drawable.di2105cl));
+
 
 
 

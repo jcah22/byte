@@ -1,73 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
 
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="#000"
     android:orientation="vertical"
-    android:weightSum="8"
-    android:layout_height="match_parent"
+    android:weightSum="10"
     tools:context=".EnamoroActivity">
 
-    <TextView
-        android:id="@+id/textView8"
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/idGrid"
         android:layout_width="match_parent"
-        android:layout_weight="1"
-        android:layout_height="0dp"
-        android:gravity="center"
-        android:text="Argollas 10 Kilates"
-        android:textColor="@color/dorado"
-        android:textSize="25sp"
-        android:fontFamily="@font/centurygothic"
-        android:textStyle="bold|italic"
-  />
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="5dp"
+        android:weightSum="1"
+        android:padding="4dp"
+        app:columnCount="1"
+        app:rowCount="1">
+
+        <com.skydoves.elasticviews.ElasticCardView
+            android:id="@+id/img10k"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:foreground="?selectableItemBackground"
+            app:cardBackgroundColor="@color/black"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="12dp"
+            app:cardView_duration="250"
+            app:cardView_scale="0.8"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/diezk" />
+
+            </LinearLayout>
+
+        </com.skydoves.elasticviews.ElasticCardView>
+        <com.skydoves.elasticviews.ElasticCardView
+            android:id="@+id/img14k"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@color/colorPrimaryDark"
+            android:foreground="?selectableItemBackground"
+            app:cardBackgroundColor="@color/black"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="12dp"
+            app:cardView_duration="250"
+            app:cardView_scale="0.8"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/catorcek" />
+
+            </LinearLayout>
+
+        </com.skydoves.elasticviews.ElasticCardView>
 
 
 
-    <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/img10k"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:clickable="true"
-        android:layout_weight="3"
-        android:src="@drawable/diezk"
-        app:civ_border_color="@color/dorado"
-        app:civ_border_width="5dp"
-    />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:fontFamily="@font/centurygothic"
-        android:layout_marginTop="10dp"
-        android:gravity="center"
-        android:text="Argollas 14 Kilates"
-        android:textColor="@color/dorado"
-        android:textSize="25sp"
-        android:textStyle="bold|italic"
-        />
+</androidx.gridlayout.widget.GridLayout>
 
 
-
-    <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/img14k"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="3"
-        android:clickable="true"
-        android:src="@drawable/catorcek"
-        app:civ_border_color="@color/dorado"
-        app:civ_border_width="5dp"
-        android:layout_marginBottom="60dp"
-
-       />
-
-
-
-
-
-</LinearLayout>
+</RelativeLayout>

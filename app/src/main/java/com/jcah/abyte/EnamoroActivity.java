@@ -8,9 +8,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.skydoves.elasticviews.ElasticCardView;
+
 public class EnamoroActivity extends AppCompatActivity {
 
-    ImageView diezk,catorcek;
+    ElasticCardView  diezk,catorcek;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

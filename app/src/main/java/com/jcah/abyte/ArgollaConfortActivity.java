@@ -31,8 +31,6 @@ public class ArgollaConfortActivity extends AppCompatActivity {
 
         initViews();
         initValues();
-
-
     }
 
     private void initViews() {

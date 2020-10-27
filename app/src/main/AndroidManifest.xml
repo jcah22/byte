@@ -12,37 +12,92 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".DetalleCollarPlataActivity"></activity>
-        <activity android:name=".ReligiosoPlataActivity" />
-        <activity android:name=".PulserasPlataActivity" />
-        <activity android:name=".AnillosPlataActivity" />
-        <activity android:name=".EsclavasPlataActivity" />
-        <activity android:name=".DijesPlataActivity" />
-        <activity android:name=".ArracadasPlataActivity" />
-        <activity android:name=".CadenasPlataActivity" />
-        <activity android:name=".CollaresPlataActivity" />
+        <activity
+            android:name=".ReligiosoPlataActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PulserasPlataActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AnillosPlataActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EsclavasPlataActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DijesPlataActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ArracadasPlataActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CadenasPlataActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CollaresPlataActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
         <activity android:name=".DetalleMovActivity" />
         <activity android:name=".DetalleEurofitActivity" />
         <activity android:name=".detalleConfortActivity" />
-        <activity android:name=".ArgollaMovActivity" />
-        <activity android:name=".ArgollaEurofitActivity" />
-        <activity android:name=".ArgollaConfortActivity" />
+        <activity
+            android:name=".ArgollaMovActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ArgollaEurofitActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ArgollaConfortActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
         <activity android:name=".DetalleArgCatorceClasicaActivity" />
-        <activity android:name=".argollaClasica14Activity" />
+        <activity
+            android:name=".argollaClasica14Activity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Argolla14Activity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetalleArgolla10kActivity"
             android:launchMode="singleInstance" />
-        <activity android:name=".DetalleArgolla10kActivity" />
-        <activity android:name=".ArgollasDiezActivity" />
-        <activity android:name=".OfertasActivity" />
-        <activity android:name=".MoshaActivity" />
-        <activity android:name=".VillaActivity" />
+        <activity
+            android:name=".ArgollasDiezActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OfertasActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MoshaActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VillaActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".EnamoroActivity"
-            android:launchMode="singleInstance" />
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".MenuActivity"
-            android:launchMode="singleInstance" />
-        <activity android:name=".MainActivity">
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

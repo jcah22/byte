@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".DetalleCollarPlataActivity"></activity>
+        <activity android:name=".CollarPlataActivity" />
         <activity
             android:name=".ReligiosoPlataActivity"
             android:launchMode="singleInstance"
@@ -38,10 +39,6 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".CadenasPlataActivity"
-            android:launchMode="singleInstance"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".CollaresPlataActivity"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait" />
         <activity android:name=".DetalleMovActivity" />

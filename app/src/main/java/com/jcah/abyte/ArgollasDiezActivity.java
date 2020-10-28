@@ -38,6 +38,8 @@ private void initViews(){
 
 }
 
+
+
 private void initValues(){
         LinearLayoutManager manager = new LinearLayoutManager(this);
     rvLista.setLayoutManager(manager);
@@ -47,7 +49,12 @@ private void initValues(){
     rvLista.setAdapter(adapter);
 }
 
+
+
+
     private List<ArgollaDiezK> getItems(){
+
+
         List<ArgollaDiezK> itemList = new ArrayList<>();
 
         itemList.add(new ArgollaDiezK("CL1101","Argolla 6mm 10 Kilates","P.P. 1.8 gr ",R.drawable.cl1101));

@@ -43,7 +43,7 @@ public class MoshaActivity extends AppCompatActivity {
         cardPlataCollares.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent iCollares = new Intent(MoshaActivity.this,CollaresPlataActivity.class);
+                Intent iCollares = new Intent(MoshaActivity.this,CollarPlataActivity.class);
                 startActivity(iCollares);
 
 

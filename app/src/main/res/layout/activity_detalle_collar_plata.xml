@@ -5,10 +5,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:weightSum="10"
-    android:background="#fff"
+    android:background="@color/white"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".DetalleCollarPlataActivity">
 
     <TextView
@@ -38,10 +38,14 @@
         android:layout_gravity="center"
         app:zoomage_autoCenter="true"
         app:zoomage_maxScale="8"
-        android:layout_weight="8"
+        android:layout_weight="9"
         app:zoomage_minScale="0.6"
         app:zoomage_restrictBounds="false"
         app:zoomage_translatable="true"
         app:zoomage_zoomable="true" />
+
+
+
+
 
 </LinearLayout>

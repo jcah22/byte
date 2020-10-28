@@ -37,6 +37,7 @@ public class ReciclerArg14kConfortAdapter extends RecyclerView.Adapter<ReciclerA
 
     @Override
     public void onBindViewHolder(@NonNull final RecyclerHolder holder, int position) {
+
         final Argolla14Confort  item = items.get(position);
         holder.codigo.setText(item.getCodigo());
         holder.descripcion.setText(item.getDescripcion());

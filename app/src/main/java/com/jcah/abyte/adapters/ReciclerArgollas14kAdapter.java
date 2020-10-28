@@ -38,6 +38,7 @@ public class ReciclerArgollas14kAdapter extends RecyclerView.Adapter<ReciclerArg
     public void onBindViewHolder(@NonNull final RecyclerHolder holder, int position) {
 
         final Argolla14k item = items.get(position);
+
         holder.codigo.setText(item.getCodigo());
         holder.descripcion.setText(item.getDescripcion());
         holder.peso.setText(item.getPeso());

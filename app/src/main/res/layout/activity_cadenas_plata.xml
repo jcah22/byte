@@ -6,11 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".CadenasPlataActivity">
 
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Activity Cadenas"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvCadenaPlata"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

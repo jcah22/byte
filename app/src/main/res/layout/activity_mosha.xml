@@ -283,7 +283,7 @@
                     android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:scaleType="fitXY"
-                    android:src="@drawable/religiososplata" />
+                    android:src="@drawable/religiosos" />
 
             </LinearLayout>
 

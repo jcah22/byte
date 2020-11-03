@@ -43,7 +43,7 @@
                 android:textColor="#000"
 
                 android:textSize="19sp"
-                android:textStyle="bold|italic"
+                android:textStyle="bold"
                 tools:text="codigo" />
 
             <TextView

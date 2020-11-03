@@ -40,7 +40,7 @@
                 android:fontFamily="@font/centurygothic"
                 android:textColor="#000"
                 android:textSize="20sp"
-                android:textStyle="bold|italic" />
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/txtDescripcionEurofit"

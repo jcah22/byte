@@ -11,7 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DetalleCollarPlataActivity"></activity>
+        <activity android:name=".BroquelesActivity"></activity>
+        <activity android:name=".AretesActivity" />
+        <activity android:name=".ArracadaDiamantadaActivity" />
+        <activity android:name=".ArracadaLisaActivity" />
+        <activity android:name=".DetalleCollarPlataActivity" />
         <activity android:name=".CollarPlataActivity" />
         <activity
             android:name=".ReligiosoPlataActivity"

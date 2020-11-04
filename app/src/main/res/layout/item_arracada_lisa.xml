@@ -2,63 +2,74 @@
 <com.skydoves.elasticviews.ElasticCardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="140dp"
-    app:cardCornerRadius="15dp"
     android:layout_margin="5dp"
+    app:cardCornerRadius="15dp"
     app:cardElevation="15dp"
     app:cardView_duration="250"
-    app:cardView_scale="0.8" >
+    app:cardView_scale="0.8">
 
     <LinearLayout
-        android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="horizontal"
         android:padding="10dp">
 
+
         <ImageView
-            android:id="@+id/imgArgolla14k"
+            android:id="@+id/imgArracadaLisa"
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:src="@drawable/ic_launcher_foreground"
+            android:layout_marginRight="10dp"
             android:scaleType="fitXY"
-            android:layout_marginRight="10dp" />
+            android:src="@drawable/ic_launcher_foreground"
+            tools:srcCompat="@mipmap/ic_launcher_round" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-            <TextView
-                android:id="@+id/txtCodigo14k"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:textColor="#000"
-                android:textStyle="bold|italic"
-                android:fontFamily="@font/centurygothic"
-                android:textSize="20sp" />
+
 
             <TextView
-                android:id="@+id/txtDescripcion14k"
+                android:id="@+id/txtCodigoArracadaLisa"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textStyle="bold|italic"
-                android:textColor="#000"
-                android:fontFamily="@font/centurygothic"
                 android:layout_marginTop="5dp"
-                android:textSize="20sp" />
+                android:fontFamily="@font/centurygothic"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:text="CODIGO" />
 
             <TextView
-                android:id="@+id/txtPesoProm14k"
+                android:id="@+id/txtDescripcionArracadaLisa"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
                 android:fontFamily="@font/centurygothic"
                 android:textColor="#000"
+                android:textSize="20sp"
                 android:textStyle="bold|italic"
+                tools:text="DESCRIPCION" />
+
+            <TextView
+                android:id="@+id/txtPesoPromArracadaLisa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:textSize="20sp" />
+                android:fontFamily="@font/centurygothic"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"
+                tools:text="PESO PROMEDIO" />
 
         </LinearLayout>
+
+
     </LinearLayout>
+
 
 </com.skydoves.elasticviews.ElasticCardView>

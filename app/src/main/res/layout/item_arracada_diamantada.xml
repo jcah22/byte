@@ -51,18 +51,18 @@
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/centurygothic"
                 android:textColor="#000"
-                android:textSize="20sp"
+                android:textSize="17sp"
                 android:textStyle="bold|italic"
                 tools:text="DESCRIPCION" />
 
             <TextView
-                android:id="@+id/txtPesoPromArracadaDiamanatada"
+                android:id="@+id/txtPesoPromArracadaDiamantada"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/centurygothic"
                 android:textColor="#000"
-                android:textSize="20sp"
+                android:textSize="17sp"
                 android:textStyle="bold|italic"
                 tools:text="PESO PROMEDIO" />
 

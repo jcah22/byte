@@ -52,7 +52,7 @@ public class ArracadaLisaActivity extends AppCompatActivity {
         List<ArracadaLisa> itemList = new ArrayList<>();
 
         itemList.add(new ArracadaLisa(R.drawable.al073r5, "AL073R5", "Ovalado con lineas 4.8mm ", "4.4 gr R5"));
-       itemList.add(new ArracadaLisa(R.drawable.adc200zfr3, "ADC200ZFR3", "Arracada zafiro Redondo 2.0mm", "2.3gr  R9,R7,R4,R3"));
+        itemList.add(new ArracadaLisa(R.drawable.adc200zfr3, "ADC200ZFR3", "Arracada zafiro Redondo 2.0mm", "2.3gr  R9,R7,R4,R3"));
 
 
         return itemList;

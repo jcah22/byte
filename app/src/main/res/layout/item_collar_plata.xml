@@ -23,6 +23,7 @@
             android:id="@+id/imgCollarPlata"
             android:layout_width="150dp"
             android:layout_height="120dp"
+            android:adjustViewBounds="true"
             android:layout_marginRight="10dp"
             android:scaleType="fitXY"
             android:src="@drawable/ic_launcher_foreground"

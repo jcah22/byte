@@ -37,6 +37,7 @@
         app:srcCompat="@drawable/ic_launcher_foreground"
         app:zoomage_animateOnReset="true"
         android:layout_gravity="center"
+        android:adjustViewBounds="true"
         app:zoomage_autoCenter="true"
         app:zoomage_maxScale="8"
         android:layout_weight="8"

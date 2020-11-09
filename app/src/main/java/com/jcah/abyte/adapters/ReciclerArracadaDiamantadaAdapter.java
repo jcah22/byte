@@ -1,5 +1,6 @@
 package com.jcah.abyte.adapters;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +11,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.jcah.abyte.DetalleArracadaDiamantadaActivity;
 import com.jcah.abyte.R;
 import com.jcah.abyte.models.ArracadaDiamantada;
 
@@ -43,7 +45,11 @@ public class ReciclerArracadaDiamantadaAdapter extends RecyclerView.Adapter<Reci
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(holder.itemView.getContext(), "Click item", Toast.LENGTH_SHORT).show();
+               // Toast.makeText(holder.itemView.getContext(), "Click item", Toast.LENGTH_SHORT).show();
+                Intent iArracadaDiamantada = new Intent(holder.itemView.getContext(), DetalleArracadaDiamantadaActivity.class);
+                iArracadaDiamantada.putExtra("itemDetalle",item);
+                holder.itemView.getContext().startActivity(iArracadaDiamantada);
+
             }
         });
 

@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BroquelesActivity"></activity>
+        <activity android:name=".DetalleArracadaDiamantadaActivity"></activity>
+        <activity android:name=".BroquelesActivity" />
         <activity android:name=".AretesActivity" />
         <activity android:name=".ArracadaDiamantadaActivity" />
         <activity android:name=".ArracadaLisaActivity" />

@@ -20,6 +20,7 @@
             android:id="@+id/imgArgolla14k"
             android:layout_width="120dp"
             android:layout_height="120dp"
+            android:adjustViewBounds="true"
             android:src="@drawable/ic_launcher_foreground"
             android:scaleType="fitXY"
             android:layout_marginRight="10dp" />

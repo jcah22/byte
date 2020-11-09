@@ -74,7 +74,7 @@ public class CollarPlataActivity extends AppCompatActivity {
         itemList.add(new CollaresPlata("DI3077CL-1", "Collar muñeca ", R.drawable.di3077cl_1));
         itemList.add(new CollaresPlata("DI3079CL_1", "Collar circulos entrelazados", R.drawable.di3079cl_1));
         itemList.add(new CollaresPlata("DI3080CL-1", "Collar de trebol", R.drawable.di3080cl_1));
-        itemList.add(new CollaresPlata("DI3081CL-1", "Collar arbol de la abundancia", R.drawable.di3081cl));
+       itemList.add(new CollaresPlata("DI3081CL-1", "Collar arbol de la abundancia", R.drawable.di3081cl_1));
         itemList.add(new CollaresPlata("DI3082CL-1", "Collar mano de fatima", R.drawable.di3082cl_1));
         itemList.add(new CollaresPlata("DI3084CL-1", "Collar infinito vertical", R.drawable.di3084cl_1));
         itemList.add(new CollaresPlata("DI3085CL-1", "Collar de mariposa", R.drawable.di3085cl_1));

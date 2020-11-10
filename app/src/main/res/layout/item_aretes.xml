@@ -40,7 +40,7 @@
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/centurygothic"
                 android:textColor="#000"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 tools:text="CODIGO" />
 
@@ -51,7 +51,7 @@
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/centurygothic"
                 android:textColor="#000"
-                android:textSize="20sp"
+                android:textSize="15sp"
                 android:textStyle="bold|italic"
                 tools:text="DESCRIPCION" />
 
@@ -62,7 +62,7 @@
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/centurygothic"
                 android:textColor="#000"
-                android:textSize="20sp"
+                android:textSize="15sp"
                 android:textStyle="bold|italic"
                 tools:text="PESO PROMEDIO" />
 

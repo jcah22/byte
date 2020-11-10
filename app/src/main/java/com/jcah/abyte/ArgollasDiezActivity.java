@@ -65,7 +65,7 @@ private void initValues(){
         itemList.add(new ArgollaDiezK("CL1200","Argolla 6mm 10 Kilates","P.P. 1.8 gr ",R.drawable.cl1200));
         itemList.add(new ArgollaDiezK("CL1201","Argolla 6mm 10 Kilates","P.P. 1.8 gr ",R.drawable.cl1201));
         itemList.add(new ArgollaDiezK("CL1202","Argolla 6mm 10 Kilates","P.P. 1.8 gr ",R.drawable.cl1202));
-        itemList.add(new ArgollaDiezK("CL088-61","Argolla 6mm 10 Kilates","P.P. 1.8 gr ",R.drawable.cl088_61));
+        itemList.add(new ArgollaDiezK("CL088-61","Argolla 6mm 10 Kilates","P.P. 1.8 gr ",R.drawable.cl0088_61));
         itemList.add(new ArgollaDiezK("CL104-61","Argolla 6mm 10 Kilates","P.P. 1.8 gr ",R.drawable.cl104_61));
 
         itemList.add(new ArgollaDiezK("CL105-61","Argolla 6mm 10 Kilates","P.P. 1.8 gr ",R.drawable.cl105_61));

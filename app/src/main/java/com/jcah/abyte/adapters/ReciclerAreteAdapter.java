@@ -1,5 +1,6 @@
 package com.jcah.abyte.adapters;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +11,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.jcah.abyte.AreteDetalleActivity;
 import com.jcah.abyte.R;
 import com.jcah.abyte.models.Aretes;
 
@@ -44,7 +46,9 @@ public class ReciclerAreteAdapter extends RecyclerView.Adapter<ReciclerAreteAdap
             @Override
             public void onClick(View view) {
 
-                Toast.makeText(holder.itemView.getContext(), "", Toast.LENGTH_SHORT).show();
+                Intent iDetalleArete = new Intent(holder.itemView.getContext(), AreteDetalleActivity.class);
+                iDetalleArete.putExtra("itemDetalle",item);
+                holder.itemView.getContext().startActivity(iDetalleArete);
             }
         });
 

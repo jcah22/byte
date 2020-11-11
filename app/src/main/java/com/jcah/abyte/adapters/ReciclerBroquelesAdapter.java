@@ -27,7 +27,7 @@ public class ReciclerBroquelesAdapter extends RecyclerView.Adapter<ReciclerBroqu
     @NonNull
     @Override
     public RecyclerHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.activity_broqueles,parent,false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_broqueles,parent,false);
 
         return new RecyclerHolder(view);
     }
@@ -44,11 +44,14 @@ public class ReciclerBroquelesAdapter extends RecyclerView.Adapter<ReciclerBroqu
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent iDetalleBroqueles = new Intent(holder.itemView.getContext(), DetalleBroquelActivity.class);
-                iDetalleBroqueles.putExtra("itemDetalle",item);
-                holder.itemView.getContext().startActivity(iDetalleBroqueles);
+
+                Intent iDetalleBroquel = new Intent(holder.itemView.getContext(),DetalleBroquelActivity.class);
+                iDetalleBroquel.putExtra("itemDetalle", item);
+                holder.itemView.getContext().startActivity(iDetalleBroquel);
             }
         });
+
+
     }
 
     @Override
@@ -59,8 +62,8 @@ public class ReciclerBroquelesAdapter extends RecyclerView.Adapter<ReciclerBroqu
     public class RecyclerHolder extends RecyclerView.ViewHolder{
 
 
-        private ImageView foto;
-        private TextView codigo;
+        private  ImageView foto;
+        private  TextView codigo;
         private TextView descripcion;
         private TextView pesoProm;
 

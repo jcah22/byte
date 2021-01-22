@@ -6,7 +6,7 @@ public class Aretes implements Serializable {
 
     private int foto;
     private String codigo;
-    private  String descripcion;
+    private String descripcion;
     private String pesoProm;
 
     public Aretes() {
